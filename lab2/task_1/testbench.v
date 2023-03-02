@@ -5,7 +5,7 @@ module testbench;
     reg  j, k, clk;
     wire q, q_n;
 
-    JK-trigger JK-trigger (j, j, clk, q, n_q);
+    JK-trigger JK-trigger (j, k, clk, q, n_q);
     
     initial $dumpvars;
 

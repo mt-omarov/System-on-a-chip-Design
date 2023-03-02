@@ -3,7 +3,7 @@
 vlib work
 
 # compile all the Verilog sources
-vlog  ../testbench.v ../*.v 
+vlog  ../testbench.v ../JK-trigger.v 
 
 # open the testbench module for simulation
 vsim -novopt work.testbench

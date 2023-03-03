@@ -9,6 +9,7 @@ set_global_assignment -name SEARCH_PATH  ../
 set_global_assignment -name SEARCH_PATH  ../../
 
 set_global_assignment -name VERILOG_FILE ../../D_trigger.v
+set_global_assignment -name VERILOG_FILE ../../JK_trigger_With_Posedge.v
 set_global_assignment -name VERILOG_FILE ../de10_lite.v
 
 set_global_assignment -name SDC_FILE     ../de10_lite.sdc
